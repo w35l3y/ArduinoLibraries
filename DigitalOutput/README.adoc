@@ -3,7 +3,7 @@
 [explicação da biblioteca com algumas observações sobre sua aplicação e uso]
 
 For more information about this library please visit us at
-https://github.com/w35l3y/ArduinoLibraries/DigitalOutput
+https://github.com/w35l3y/ArduinoLibraries/tree/main/DigitalOutput
 
 == License ==
 
