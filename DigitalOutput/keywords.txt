@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For DigitalOutput
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1) - Tipos de Dados
+#######################################
+
+DigitalOutput	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2) - Métodos e Funções
+#######################################
+
+turn	KEYWORD2
+turnOn	KEYWORD2
+turnOff	KEYWORD2
+play	KEYWORD2
+stop	KEYWORD2
+blink	KEYWORD2
+loop	KEYWORD2
+
+#######################################
+# Constants (LITERAL1) - Constantes
+#######################################
+
+#[nome da constante ou definição 1] LITERAL1
