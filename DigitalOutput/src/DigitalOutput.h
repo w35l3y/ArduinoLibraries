@@ -1,3 +1,6 @@
+#ifndef  DigitalOutput_h
+#define DigitalOutput_h
+
 #define DIGITAL_OUTPUT_STATIC_MODE 0
 #define DIGITAL_OUTPUT_BLINK_MODE_FINITE 1
 #define DIGITAL_OUTPUT_BLINK_MODE_INFINITE 2
@@ -27,3 +30,5 @@ class DigitalOutput {
 
     void loop();
 };
+
+#endif
