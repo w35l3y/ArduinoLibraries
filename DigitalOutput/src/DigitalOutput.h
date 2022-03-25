@@ -5,6 +5,8 @@
 #define DIGITAL_OUTPUT_BLINK_MODE_FINITE 1
 #define DIGITAL_OUTPUT_BLINK_MODE_INFINITE 2
 
+#include <Arduino.h>
+
 class DigitalOutput {
   private:
     unsigned mode = DIGITAL_OUTPUT_STATIC_MODE;
