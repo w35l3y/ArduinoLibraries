@@ -44,15 +44,15 @@ void DigitalOutput::loop() {
   if (this->mode == DIGITAL_OUTPUT_BLINK_MODE_INFINITE) {
     unsigned long diff = millis() - this->lastStatus;
 
-    if (!this->lastState && diff >= this->statusOn || this->lastState && diff >= this->statusOff) {
+    if (this->lastState && diff >= this->statusOn || !this->lastState && diff >= this->statusOff) {
       this->localTurn(!this->lastState);
     }
   } else if (this->times > 0) {
     unsigned long diff = millis() - this->lastStatus;
 
-    if (!this->lastState && diff >= this->statusOn) {
+    if (!this->lastState && diff >= this->statusOff) {
       this->localTurn(true);
-    } else if (this->lastState && diff >= this->statusOff) {
+    } else if (this->lastState && diff >= this->statusOn) {
       this->localTurn(false);
       --this->times;
     }

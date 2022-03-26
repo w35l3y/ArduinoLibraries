@@ -1,5 +1,8 @@
-#ifndef  DigitalOutput_h
-#define DigitalOutput_h
+/*
+ * https://github.com/w35l3y/ArduinoLibraries/tree/main/DigitalOutput
+ */
+#ifndef  __DIGITAL_OUTPUT_H__
+#define __DIGITAL_OUTPUT_H__
 
 #define DIGITAL_OUTPUT_STATIC_MODE 0
 #define DIGITAL_OUTPUT_BLINK_MODE_FINITE 1
