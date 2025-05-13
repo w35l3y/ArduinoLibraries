@@ -1,6 +1,6 @@
 #include "Buzzer.h"
 
-DigitalOutput buzzer(8);
+Buzzer buzzer(8);
 
 void setup() {
   buzzer.beep(0, 1000, 1000);
