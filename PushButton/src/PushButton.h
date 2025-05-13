@@ -6,8 +6,8 @@
  * Diferencia clique curto do longo
  * Atua com o número de cliques customizado (1, 2, 3+)
 */
-#ifndef PushButton_h
-#define PushButton_h
+#ifndef __PUSH_BUTTON_H__
+#define __PUSH_BUTTON_H__
 
 #define PUSHBUTTON_RELEASE_MODE 0
 #define PUSHBUTTON_PRESS_MODE 1
